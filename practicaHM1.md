@@ -1,6 +1,8 @@
-¡Claro que sí\! Aquí tienes una guía **paso a paso y fácil de seguir** para que los estudiantes de bachillerato (preparatoria) creen un proyecto básico en **Django** en una computadora con **Windows**. 💻
-Usaremos el **Símbolo del Sistema (CMD)** o **PowerShell** y nos enfocaremos en los comandos esenciales.
------
+## Activar los Script en Windows
+1.  Ejecutar como administrador el **PowerShell**
+2.  Escribir el comando: Set-ExecutionPolicy RemoteSigned y presiona `Enter`
+3.  Luego Escribir: S y presiona `Enter`
+4.  Escribe: exit y presiona `Enter`
 
 ## 🚀 1. Configuración Inicial (¡Solo por Primera Vez\!)
 Antes de empezar, asegúrate de tener **Python 3** instalado en tu computadora.
@@ -33,15 +35,13 @@ Es una **buena práctica** aislar los archivos de Django de tu instalación prin
 
 ### C. Instalar Django
 1.  Una vez activado el entorno, instala Django usando `pip` (el gestor de paquetes de Python):
-    pip install django
-    *Espera a que termine la instalación. ¡Ya tienes Django\!*
+   pip install django
+*Espera a que termine la instalación. ¡Ya tienes Django\!*
 
 ## 🛠️ 3. Crear el Proyecto Base y la Aplicación
-
 En Django, un **Proyecto** es la configuración global, y una **Aplicación** (`App`) es un módulo con funcionalidades específicas (ej. "Blog", "Usuarios").
 
 ### A. Crear el Proyecto Django
-
 1.  Asegúrate de estar en la carpeta principal (`proyecto_django_win`). Ejecuta el comando para crear la estructura del proyecto:
     django-admin startproject mi_sitio .
 `
@@ -128,6 +128,3 @@ Finalmente, dile al proyecto principal que use las rutas de tu aplicación.
 
 Para detener el servidor, presiona `Ctrl + C` en la ventana del terminal.
 
------
-
-Si te gustaría dar el siguiente paso, ¿quieres que te explique cómo usar **HTML (Templates)** en lugar de solo texto para hacer la página más bonita?
