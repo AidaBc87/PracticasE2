@@ -28,6 +28,7 @@ Es una **buena práctica** aislar los archivos de Django de tu instalación prin
 ### A. Crear el Entorno Virtual
 1.  Crea un entorno virtual llamado `venv`:
     python -m venv venv
+    *También puedes usar `py` en lugar de python.*
 
 ### B. Activar el Entorno Virtual
 1.  **Activa** el entorno (notarás que aparece `(venv)` al inicio de tu línea de comandos):
@@ -127,4 +128,5 @@ Finalmente, dile al proyecto principal que use las rutas de tu aplicación.
 3.  **¡Éxito\!** Deberías ver tu mensaje de **"Hola, Bachillerato..."**
 
 Para detener el servidor, presiona `Ctrl + C` en la ventana del terminal.
+
 
