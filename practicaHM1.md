@@ -20,7 +20,6 @@ Antes de empezar, asegúrate de tener **Python 3** instalado en tu computadora.
 2.  Crea la carpeta de tu proyecto y entra en ella:
     mkdir proyecto_django_win
     cd proyecto_django_win
------
 
 ## 🐍 2. Entorno Virtual e Instalación de Django
 Es una **buena práctica** aislar los archivos de Django de tu instalación principal de Python.
@@ -36,7 +35,7 @@ Es una **buena práctica** aislar los archivos de Django de tu instalación prin
 
 ### C. Instalar Django
 1.  Una vez activado el entorno, instala Django usando `pip` (el gestor de paquetes de Python):
-   pip install django
+ pip install django
 *Espera a que termine la instalación. ¡Ya tienes Django\!*
 
 ## 🛠️ 3. Crear el Proyecto Base y la Aplicación
@@ -128,5 +127,6 @@ Finalmente, dile al proyecto principal que use las rutas de tu aplicación.
 3.  **¡Éxito\!** Deberías ver tu mensaje de **"Hola, Bachillerato..."**
 
 Para detener el servidor, presiona `Ctrl + C` en la ventana del terminal.
+
 
 
