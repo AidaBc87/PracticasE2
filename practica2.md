@@ -2,7 +2,7 @@
 ## 📚 **Guía Paso a Paso: Crear un Proyecto Básico en Django (Nivel Principiante)**
 
 ---
-Activar los Script en Windows
+### Activar los Script en Windows
     Ejecutar como administrador el PowerShell
     Escribir el comando: Set-ExecutionPolicy RemoteSigned y presiona Enter
     Luego Escribir: S y presiona Enter
