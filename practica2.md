@@ -2,6 +2,11 @@
 ## 📚 **Guía Paso a Paso: Crear un Proyecto Básico en Django (Nivel Principiante)**
 
 ---
+Activar los Script en Windows
+    Ejecutar como administrador el PowerShell
+    Escribir el comando: Set-ExecutionPolicy RemoteSigned y presiona Enter
+    Luego Escribir: S y presiona Enter
+    Escribe: exit y presiona Enter
 
 ### ✅ Requisitos previos
 - Tener instalado **Python 3.6 o superior**.
