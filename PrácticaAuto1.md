@@ -6,6 +6,7 @@ Ejecutar como administrador el PowerShell
 Escribir el comando: Set-ExecutionPolicy RemoteSigned y presiona Enter
 Luego Escribir: S y presiona Enter
 Escribe: exit y presiona Enter
+
 -----
 ## 💻 Práctica: Múltiples Vistas y Plantillas en Django
 
