@@ -1,7 +1,12 @@
 Crear un proyecto desde cero que se enfoque en la **cadena solicitud-respuesta**, la creación de **múltiples vistas**, y el uso de **plantillas estáticas y dinámicas**.
 Aquí tienes una práctica paso a paso para crear un **Sitio Web de Perfiles Simple**.
 -----
-
+## Activar Scripts en Windows
+Ejecutar como administrador el PowerShell
+Escribir el comando: Set-ExecutionPolicy RemoteSigned y presiona Enter
+Luego Escribir: S y presiona Enter
+Escribe: exit y presiona Enter
+-----
 ## 💻 Práctica: Múltiples Vistas y Plantillas en Django
 
 El objetivo es tener un sitio con una **Página de Inicio** y una **Página "Acerca de"**, usando plantillas y vistas separadas.
