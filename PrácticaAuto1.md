@@ -19,6 +19,7 @@ Si ya tienes tu entorno virtual de la práctica anterior, ¡úsalo\! Si no, sigu
 1.  **Crea una Carpeta** llamada `perfiles_django` y ábrela en VS Code.
 
 2.  **Crea el entorno visrtual y activa tu entorno virtual** (`venv`).
+
     Crear el entorno virtual
     ```bash
     python -m venv .venv   
