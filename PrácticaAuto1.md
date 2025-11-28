@@ -18,23 +18,30 @@ Si ya tienes tu entorno virtual de la práctica anterior, ¡úsalo\! Si no, sigu
 
 1.  **Crea una Carpeta** llamada `perfiles_django` y ábrela en VS Code.
 
-2.  **Activa tu entorno virtual** (`venv`).
+2.  **Crea el entorno visrtual y activa tu entorno virtual** (`venv`).
+    ```bash
+python -m venv .venv  
+```
 
-3.  **Instala Django** (si es necesario): `pip install django`
+    ```bash
+.venv\Scripts\activate
+```
 
-4.  **Crea el Proyecto Principal** (`mi_sitio`):
+4.  **Instala Django** (si es necesario): `pip install django`
+
+5.  **Crea el Proyecto Principal** (`mi_sitio`):
 
     ```bash
     django-admin startproject mi_sitio .
     ```
 
-5.  **Crea la Aplicación** (`principal`):
+6.  **Crea la Aplicación** (`principal`):
 
     ```bash
     python manage.py startapp principal
     ```
 
-6.  **Registra la Aplicación:** Abre **`mi_sitio/settings.py`** y añade `'principal'` a la lista `INSTALLED_APPS`.
+7.  **Registra la Aplicación:** Abre **`mi_sitio/settings.py`** y añade `'principal'` a la lista `INSTALLED_APPS`.
 
     ```python
     # mi_sitio/settings.py
