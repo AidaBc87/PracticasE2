@@ -231,7 +231,3 @@ Esta plantilla renderiza el formulario y es **CRUCIAL** usar `enctype="multipart
 3.  Acceder a `http://127.0.0.1:8000/` y probar la subida de imágenes.
 
 Este proyecto toca los puntos esenciales de una aplicación web real (Modelo, Vista, Plantilla, URLs y Manejo de Archivos) de una forma que es fácil de visualizar y depurar en **Visual Studio Code**.
-
------
-
-¿Te gustaría que te genere los comandos de **VS Code** para abrir la terminal e iniciar este proyecto?
