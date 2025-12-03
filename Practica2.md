@@ -9,11 +9,11 @@ Paso 2: Configurar la App y Crear una Vista
 1.	Abre el archivo mi_blog/settings.py y busca la sección INSTALLED_APPS. Agrega tu nueva aplicación a la lista para que Django la reconozca:
 Python
 INSTALLED_APPS = [
-    # ... otras apps
+     #... otras apps
     'blog',
-]
+  	]
 
-2.	Abre el archivo blog/views.py y agrega el siguiente código. Esta es tu vista; es una función que procesa la solicitud y devuelve una respuesta.
+3.	Abre el archivo blog/views.py y agrega el siguiente código. Esta es tu vista; es una función que procesa la solicitud y devuelve una respuesta.
 Python
 from django.shortcuts import render
 from django.http import HttpResponse
