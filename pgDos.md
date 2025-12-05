@@ -7,6 +7,18 @@ Esta práctica se divide en tres fases: **Configuración**, **Creación del Proy
 ### Fase 1: Configuración del Entorno
 
 Asegúrate de que los estudiantes tengan **Python** y **VS Code** instalados.
+Crear un Entorno Virtual (Recomendado)
+Un entorno virtual aísla las dependencias de tu proyecto para que no interfieran con otros proyectos o la instalación global de Python.
+    En VS Code, abre la Terminal (Terminal > Nueva Terminal).
+
+    Ejecuta el siguiente comando para crear el entorno virtual (llamado venv):
+
+    python -m venv .venv
+
+Activar el Entorno Virtual:
+
+    .venv\Scripts\Activate.ps1
+Verás que el nombre (.venv) aparece al inicio de tu línea de comandos, indicando que está activo.
 
 #### 1\. Instalar Django
 
