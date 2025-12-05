@@ -8,7 +8,7 @@ Esta práctica enseña a los estudiantes cómo usar formularios HTML para captur
 
 ### Fase 1: Configuración de Plantillas y Vistas
 
-Asumiremos que ya tienes el proyecto base (`mi_proyecto`) y la aplicación (`saludos`) de las prácticas anteriores.
+Debes de tener la pgDos.. el proyecto base (`mi_proyecto`) y la aplicación (`saludos`) de las prácticas anteriores.
 
 #### 1\. Crear la Plantilla del Formulario
 
