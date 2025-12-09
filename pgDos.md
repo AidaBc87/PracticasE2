@@ -17,7 +17,7 @@ Un entorno virtual aísla las dependencias de tu proyecto para que no interfiera
 
 Activar el Entorno Virtual:
 
-    .venv\Scripts\Activate.ps1
+    .venv\Scripts\Activate
 Verás que el nombre (.venv) aparece al inicio de tu línea de comandos, indicando que está activo.
 
 #### 1\. Instalar Django
